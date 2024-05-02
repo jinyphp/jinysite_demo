@@ -1,0 +1,33 @@
+<?php
+return [
+	'slot1'=>[
+		'active'=>"",
+		'name'=>"slot1",
+		'description'=>"기본슬롯"
+	],
+	'slot2'=>[
+		'active'=>"1",
+		'name'=>"slot2",
+		'description'=>"추가슬롯"
+	],
+	'shop1'=>[
+		'active'=>"",
+		'name'=>"shop1",
+		'description'=>""
+	],
+	'shop2'=>[
+		'active'=>"",
+		'name'=>"shop2",
+		'description'=>"쇼핑몰셈플2"
+	],
+	'bbb'=>[
+		'active'=>"",
+		'name'=>"bbb",
+		'description'=>"dfasf"
+	],
+	'slot3'=>[
+		'active'=>"",
+		'name'=>"slot3",
+		'description'=>""
+	]
+];
