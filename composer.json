@@ -7,9 +7,30 @@
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
+        "jiny/admin": "^0.3.0",
+        "jiny/auth": "^0.3.3",
+        "jiny/config": "^0.1.0",
+        "jiny/fortify": "^0.0.2",
+        "jiny/html": "^0.3.0",
+        "jiny/icons": "^0.3.1",
+        "jiny/laravel": "^0.0.2",
+        "jiny/locale": "^0.3.1",
+        "jiny/manual": "^0.0.2",
+        "jiny/modules": "^0.3.2",
+        "jiny/permit": "^0.3.0",
+        "jiny/profile": "^0.3.1",
+        "jiny/social": "^0.3.0",
+        "jiny/theme": "^0.3.1",
+        "jiny/ui": "^0.3.2",
+        "jiny/ui2": "^0.3.0",
+        "jiny/users": "^0.3.0",
+        "jiny/widgets": "^0.0.2",
+        "jiny/wiretable": "^0.3.1",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
-        "laravel/tinker": "^2.8"
+        "laravel/tinker": "^2.8",
+        "livewire/livewire": "^3.4",
+        "nwidart/laravel-modules": "^11.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -58,7 +79,8 @@
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "wikimedia/composer-merge-plugin": true
         }
     },
     "minimum-stability": "stable",

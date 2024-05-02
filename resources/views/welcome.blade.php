@@ -33,7 +33,7 @@
 
             <div class="max-w-7xl mx-auto p-6 lg:p-8">
                 <div class="flex justify-center" style="font-size:3rem;">
-                    Welcome to JinyShop
+                    Welcome to JinyPHP
                 </div>
 
                 <div class="mt-16">
