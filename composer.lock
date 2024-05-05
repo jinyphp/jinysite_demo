@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7138461df340bbc3d8570657e00bd3d5",
+    "content-hash": "fae7d070aeda4b7428f1301888caf0d8",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1836,6 +1836,63 @@
                 "source": "https://github.com/jinyphp/permit/tree/0.3"
             },
             "time": "2024-04-12T05:25:21+00:00"
+        },
+        {
+            "name": "jiny/posts",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinyphp/posts.git",
+                "reference": "2649f7fa72b005ee6c5dae3c5099f168e52e74ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinyphp/posts/zipball/2649f7fa72b005ee6c5dae3c5099f168e52e74ac",
+                "reference": "2649f7fa72b005ee6c5dae3c5099f168e52e74ac",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jiny\\Posts\\JinyPostServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/Helper.php"
+                ],
+                "psr-4": {
+                    "Jiny\\Posts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hojinlee",
+                    "email": "infohojin@gmail.com",
+                    "homepage": "http://www.jinyphp.com"
+                }
+            ],
+            "description": "post for JinySite",
+            "homepage": "http://www.jinyphp.com",
+            "keywords": [
+                "framwork",
+                "jinySite",
+                "permit"
+            ],
+            "support": {
+                "issues": "https://github.com/jinyphp/posts/issues",
+                "source": "https://github.com/jinyphp/posts/tree/0.0.2"
+            },
+            "time": "2024-05-05T09:19:26+00:00"
         },
         {
             "name": "jiny/profile",
